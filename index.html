@@ -8,7 +8,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <script src="https://use.fontawesome.com/b8cd8373a9.js"></script>
-
+<!-- css -->
+    <link rel="stylesheet" href="style.css">
     <title>Sayeed Md. Shaiban</title>
   </head>
   <body>
@@ -19,7 +20,7 @@
           <a class="nav-link active" href="#">Sayeed Shaiban</a>
         </li>
         <li class="nav-item">
-          <a id='nav-work' class="nav-link" href="#research">Work</a>
+          <a id='nav-work' class="nav-link" href="#allinfo">Work</a>
         </li>
         <li class="nav-item">
           <a id='nav-about'class="nav-link" href="#about">About</a>
@@ -54,18 +55,14 @@
 
 <!-- carousal ends here -->
     <div style = "padding:50px;"class="container-fluid" id=allinfo>
-      <!-- about starts here -->
-      <div id="about"style="padding:20px; visibility:hidden;">
-        <h5 id="about">About</h5>
-        <hr>
-        <!-- <img src="images/IMG.jpg" class="card-img-top" alt="profile pic"> -->
-        <p>Born on 4th May, 1997. Sayeed is currently in his 11th semester in North South University, studying BSc. in Computer Science and Engineering. He is working on projects related to Natural Language Processing(NLP) and Computer Vision.
-          In NLP he has been working on Bangla and Arabic using the state of the art google's BERT model. He recently got his paper accepted for ICCCI 2020. In this free time
-        he explores web technology. He is an avid supporter of the football club Arsenal and occasionaly indulges in video games</p>
-      </div>
-      <!-- about ends here -->
+
+      <!-- <a href="#"> -->
+        <button class="btn float">get funky</button>
+        <!-- <i class="fa fa-plus my-float"></i> -->
+      <!-- </a> -->
+
 <!-- research starts here -->
-      <div style="padding:20px;" id="research">
+      <div class="onepage" id="research">
         <h5>Research</h5>
         <hr>
         <ul>
@@ -79,10 +76,11 @@
           <!-- <hr> -->
         </ul>
       </div>
+
 <!-- research ends here -->
 
 <!-- Courses starts here -->
-      <div style="padding:20px;" id="course">
+      <div class="onepage" id="course">
         <h5>Courses</h5>
         <hr>
         <ul>
@@ -101,7 +99,7 @@
 <!-- Courses ends here -->
 
 <!-- honors/awards starts here -->
-      <div style="padding:20px;" style="padding:20px" class="Awards">
+      <div  class="onepage" id="awards">
         <h5>Honor/Awards</h5>
         <hr>
         <p><strong>Title:</strong> Champion of Banglalink-SDG Hackathon | Code for a Cause 2.0 </p>
@@ -109,12 +107,26 @@
         legal services, built using NLP based chatbot made with Google’s Dialogflow.</p>
       </div>
 <!-- honors/awards ends here -->
+<!-- about starts here -->
+<div class="onepage" id="about"style="visibility:hidden;">
+  <h5>About</h5>
+  <hr>
+  <div class="card" style="width: 18rem;">
+    <img class="card-img-top" src="images/DSC_0052-2.jpg" alt="Card image cap">
+  </div>
+  <!-- <img src="images/DSC_0052-2.jpg" class=".img-fluid.max-width: 10% rounded float-left img-thumbnail" alt="profile pic"> -->
+  <br>
+  <p>Born on 4th May, 1997. Sayeed is currently in his 11th semester in North South University, studying BSc. in Computer Science and Engineering. He is working on projects related to Natural Language Processing(NLP) and Computer Vision.
+    In NLP he has been working on Bangla and Arabic using the state of the art google's BERT model. He recently got his paper accepted for ICCCI 2020. In this free time
+  he explores web technology. He is an avid supporter of the football club Arsenal and occasionaly indulges in video games</p>
+  <a href="#" class="btn btn-primary">Click to get CV</a>
+</div>
+<!-- about ends here -->
 
-
-    </div>
+    <!-- </div> -->
 
     <div class="row">
-    <div class="footer" style="position:relative;left: 0; bottom: 0; width:100%; background-color: black; color: white;text-align: center; margin:10px;">
+    <div class="footer" style="">
       <p>&copy; evrydaywannbe</p>
       <a href="https://www.linkedin.com/in/sayeed-shaiban/"><i style="font-size: 20px; color:white" class="fa fa-linkedin-square"></i></a>
       <a href="https://www.facebook.com/evrydaywannabe?ref=bookmarks"><i style="font-size: 20px; color:white" class="fa fa-facebook-square"></i></a>
