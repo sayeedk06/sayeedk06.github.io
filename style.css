@@ -50,9 +50,17 @@ html, body {
 /* #course{
   background-color: #e8fcfc;
 } */
-/* #awards{
-  background-color: #f5f6ff;
-} */
+#awards{
+  /* background-color: #f5f6ff; */
+  margin-bottom: 10%;
+}
+
+#about{
+  /* background-color: #f5f6ff; */
+  margin-top: 10%;
+}
+
+
 .footer{
   left: 0;
   bottom: 0;

@@ -1,9 +1,9 @@
 document.getElementById('date').innerHTML = Date();
 
-function showAbout() {
-  document.getElementById('allinfo').style.visibility = "hidden";
-  document.getElementById('about').style.visibility = "visible";
-}
+// function showAbout() {
+//   document.getElementById('allinfo').style.visibility = "hidden";
+//   document.getElementById('about').style.visibility = "visible";
+// }
 
 
 function showWork() {
