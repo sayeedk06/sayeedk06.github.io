@@ -7,6 +7,15 @@ html, body {
 }
 
 
+
+/* @media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+} */
+
+
+
 .onepage{
   background-color: white;
   height: 100%;
@@ -48,14 +57,12 @@ html, body {
   background-color: #f5f6ff;
 } */
 .footer{
-  position: fixed;
   left: 0;
   bottom: 0;
   width:100%;
-  background-color: black;
-  color: white;
+  /* color: white; */
   text-align: center;
-  margin:10px;
+  /* margin:10px; */
 }
 .float{
 	position:fixed;
