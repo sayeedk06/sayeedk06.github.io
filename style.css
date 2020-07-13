@@ -22,9 +22,7 @@ html, body {
   /* top: 0;
   left: 0; */
 }
-#about{
-  bottom: 50%;
-}
+
 
 .funky {
 
@@ -57,7 +55,7 @@ html, body {
 
 #about{
   /* background-color: #f5f6ff; */
-  margin-top: 10%;
+  padding: 20px;
 }
 
 
