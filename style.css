@@ -24,10 +24,10 @@ html, body {
 }
 
 
-.funky {
+/* .funky {
 
   position: relative;
-  width:90%;
+  width:10%;
   height:90%
   animation-name: getFunky;
   animation-duration: 5s;
@@ -38,7 +38,7 @@ html, body {
 .funky:hover {
   width : 100%;
   height : 100%;
-}
+} */
 
 
 /* #research{
@@ -67,34 +67,60 @@ html, body {
   text-align: center;
   /* margin:10px; */
 }
-.float{
+.float1{
 	position:fixed;
-	width:60px;
-	height:60px;
-	bottom:50%;
-	right:40px;
+	width:25px;
+	height:25px;
+	bottom:40%;
+	left:18%;
 	background-color:#0C9;
 	color:#FFF;
-	border-radius:50px;
+	border-radius:20px;
 	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+	box-shadow: -3px 5px 10px #999;
   animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+.float2{
+	position:fixed;
+	width:25px;
+	height:25px;
+	bottom:40%;
+	left:82%;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:20px;
+	text-align:center;
+	box-shadow: -3px 5px 10px #999;
+  animation-name: example2;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes example {
-  0% {background-color:red; right:40px; bottom:50%;}
-  50% {background-color:yellow; right:40px; bottom:60%;}
-  100%  {background-color:blue; right:40px; bottom:50%;}
+  0% {background-color:lightblue; left:82%; bottom:40%;}
+  25% {background-color:lightblue; left:82%; bottom:65%;}
+  50%  {background-color:grey; left:18%; bottom:65%;}
+  75%  {background-color:grey; left:18%; bottom:40%;}
+  100%  {background-color:lightblue; left:82%; bottom:40%;}
   /* 100%  {background-color:green; right:40px; bottom:40%;} */
   /* 100% {background-color:red; right:40px; bottom:30%;} */
 }
 
-@keyframes getFunky {
+@keyframes example2 {
+  0% {background-color:grey; left:25%; bottom:40%;}
+  25% {background-color:grey; left:82%; bottom:65%;}
+  50%  {background-color:grey; left:18%; bottom:65%;}
+  100%  {background-color:grey; left:18%; bottom:40%;}
+  /* 100%  {background-color:green; right:40px; bottom:40%;} */
+  /* 100% {background-color:red; right:40px; bottom:30%;} */
+}
+
+/* @keyframes getFunky {
   0% {background-color:white; top:50%;}
   50% {background-color:lightblue; top: 60%}
   100%  {background-color:white; top: 60%}
   /* 100%  {background-color:green; right:40px; bottom:40%;} */
   /* 100% {background-color:red; right:40px; bottom:30%;} */
-}
+} */
