@@ -99,6 +99,7 @@ html, body {
   animation-name: example2;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  z-index: 2;
 }
 .float3{
 	position:fixed;
@@ -115,6 +116,7 @@ html, body {
   animation-name: example3;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  z-index: 2;
 }
 
 @keyframes example {
