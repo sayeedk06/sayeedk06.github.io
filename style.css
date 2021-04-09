@@ -73,11 +73,13 @@ html, body {
 	height:25px;
 	bottom:40%;
 	left:18%;
-	background-color:#0C9;
+	background-color:#2b2e4a;
 	color:#FFF;
 	border-radius:20px;
 	text-align:center;
-	box-shadow: -3px 5px 10px #999;
+  /* box-shadow: -3px 5px 10px #999; */
+  box-shadow: 6px 6px 12px #151515,
+  -6px -6px 12px #ffffff;
   animation-name: example;
   animation-duration: 5s;
   animation-iteration-count: infinite;
@@ -88,31 +90,32 @@ html, body {
 	height:25px;
 	bottom:40%;
 	left:82%;
-	background-color:#0C9;
+	background-color:#3c415c;
 	color:#FFF;
 	border-radius:20px;
 	text-align:center;
-	box-shadow: -3px 5px 10px #999;
+  box-shadow: 6px 6px 12px #151515,
+  -6px -6px 12px #ffffff;
   animation-name: example2;
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes example {
-  0% {background-color:lightblue; left:82%; bottom:30%;}
-  25% {background-color:lightblue; left:82%; bottom:65%;}
-  50%  {background-color:grey; left:15%; bottom:65%;}
-  75%  {background-color:grey; left:15%; bottom:30%;}
-  100%  {background-color:lightblue; left:82%; bottom:30%;}
+  0% {background-color:#2b2e4a; left:82%; bottom:30%;}
+  25% {background-color:#2b2e4a; left:82%; bottom:65%;}
+  50%  {background-color:#3c415c; left:15%; bottom:65%;}
+  75%  {background-color:#3c415c; left:15%; bottom:30%;}
+  100%  {background-color:#2b2e4a; left:82%; bottom:30%;}
   /* 100%  {background-color:green; right:40px; bottom:40%;} */
   /* 100% {background-color:red; right:40px; bottom:30%;} */
 }
 
 @keyframes example2 {
-  0% {background-color:grey; left:25%; bottom:30%;}
-  25% {background-color:grey; left:82%; bottom:65%;}
-  50%  {background-color:grey; left:15%; bottom:65%;}
-  100%  {background-color:grey; left:15%; bottom:30%;}
+  0% {background-color:#3c415c; left:25%; bottom:30%;}
+  25% {background-color:#3c415c; left:82%; bottom:65%;}
+  50%  {background-color:#3c415c; left:15%; bottom:65%;}
+  100%  {background-color:#3c415c; left:15%; bottom:30%;}
   /* 100%  {background-color:green; right:40px; bottom:40%;} */
   /* 100% {background-color:red; right:40px; bottom:30%;} */
 }
