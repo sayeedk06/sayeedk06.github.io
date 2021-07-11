@@ -1,13 +1,13 @@
 html, body {
-    height: 100%;
     margin: 0;
     padding: 0;
     top: 0;
     left: 0;
 }
-
-
-
+#particles-js{
+  position: fixed;
+  width: 100%;
+}
 /* @media only screen and (max-width: 600px) {
   body {
     background-color: lightblue;
