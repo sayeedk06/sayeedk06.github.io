@@ -118,6 +118,23 @@ html, body {
   animation-iteration-count: infinite;
   z-index: 2;
 }
+.float4{
+	position:fixed;
+	width:100px;
+	height:25px;
+	top:29%;
+  right:10%
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:20px;
+	text-align:center;
+  padding: 2px;
+	box-shadow: -3px 5px 10px #999;
+  animation-name: example4;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  z-index: 2;
+}
 
 @keyframes example {
   0% {background-color:lightblue; right:10%; top:20%;}
@@ -138,6 +155,13 @@ html, body {
   0% {background-color:lightblue; right:10%; top:26%;}
   50% {background-color:lightblue; right:10%; top:27%;}
   100%  {background-color:lightblue; right:10%; bottom:26%;}
+  /* 100%  {background-color:green; right:40px; bottom:40%;} */
+  /* 100% {background-color:red; right:40px; bottom:30%;} */
+}
+@keyframes example4 {
+  0% {background-color:lightblue; right:10%; top:29%;}
+  50% {background-color:lightblue; right:10%; top:30%;}
+  100%  {background-color:lightblue; right:10%; bottom:29%;}
   /* 100%  {background-color:green; right:40px; bottom:40%;} */
   /* 100% {background-color:red; right:40px; bottom:30%;} */
 }
